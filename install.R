@@ -1,4 +1,4 @@
 install.packages('rjson')
-install.package("BiocManager")
+install.packages("BiocManager")
 BiocManager::install("msqrob2")
 BiocManager::install("statomics/msqrob2gui")

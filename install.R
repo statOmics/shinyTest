@@ -1,5 +1,6 @@
 install.packages('rjson')
 install.packages("BiocManager")
 BiocManager::install("remotes")
+BiocManager::install(c("car", "multcomp"))
 BiocManager::install("msqrob2")
 BiocManager::install("statomics/msqrob2gui")
